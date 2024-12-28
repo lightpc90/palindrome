@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    background-color: #f0f0f0;
+}
+
+#result{
+    /* width: 100%; */
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#text-input{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(58, 74, 109);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+#check-btn{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(58, 74, 109);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
